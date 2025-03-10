@@ -1,12 +1,21 @@
-#include <bits/stdc++.h>
+#include <iostream>
+#include<climits>
 using namespace std;
 
 int main(){
+    int n;
+    cout<<"Enter the size of an array"<<endl;
+    cin>>n;
 
-    int marks[] = {10, 20, 30, 15, -15, 40, 50, 55, 24};
+    int marks[n];
+
+    cout<<"Enter the array elements"<<endl;
+    for(int i = 0;i<n;i++){
+        cin>>marks[i];
+    }
 
     int largest = INT_MIN;
-    for(int i = 0; i < 9; i++){
+    for(int i = 0; i < n; i++){
 
         if(marks[i]>largest){
             largest = marks[i];

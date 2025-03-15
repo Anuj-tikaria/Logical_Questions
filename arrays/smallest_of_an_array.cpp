@@ -1,6 +1,7 @@
 #include <iostream>
 #include<climits>
 
+
 using namespace std;
 
 int main(){
@@ -31,7 +32,5 @@ int main(){
 
     cout<<"smallest="<< smallest << endl;
     return 0;
-
-
 
 }

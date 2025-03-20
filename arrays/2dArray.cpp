@@ -1,9 +1,7 @@
 #include<iostream>
 using namespace std;
 
-int print2Darray(int arr[]){
     
-}
 int main(){
 
     int arr[4][5];
